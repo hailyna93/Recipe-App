@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           appBarTheme: AppBarTheme(color: Colors.white, elevation: 0),
-          backgroundColor: Colors.white,
+          //backgroundColor: Colors.white,
+          scaffoldBackgroundColor: Colors.white,
           visualDensity: VisualDensity.adaptivePlatformDensity),
       title: "Recipe App",
       home: HomeScreen(),
