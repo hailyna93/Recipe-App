@@ -15,7 +15,7 @@ class RecipeBundle {
       this.color});
 }
 
-List<RecipeBundle> repiceBundles = [
+List<RecipeBundle> recipeBundles = [
   RecipeBundle(
       id: 1,
       chefs: 16,
@@ -39,7 +39,7 @@ List<RecipeBundle> repiceBundles = [
       title: "Cook Something New Everyday",
       description: "New and tasty recipes every minute",
       imageSrc: "assets/images/cook_new@2x.png",
-      color: Color(0xFFD82D40)),
+      color: Color(0xFF2DBBD8)),
   RecipeBundle(
       id: 4,
       chefs: 8,
